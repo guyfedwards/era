@@ -19,8 +19,6 @@ func main() {
 
 	var t string
 
-	fmt.Printf("%v", os.Args)
-
 	if len(os.Args) < 2 {
 		t = "10s"
 	} else {

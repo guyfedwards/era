@@ -4,8 +4,9 @@ Quick timers from command line. Triggers system notification after specified tim
 
 ### usage
 ```
-$ era 10m
+$ era 10m &
 ```
+& is needed currently to run in background :(
 
 ### TODO
 - [ ] background task
